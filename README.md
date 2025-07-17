@@ -35,6 +35,37 @@ LatticeOS exists to:
 
 ---
 
+<h1 align="center">Hi, I'm Buzz 🛠️</h1>
+<p align="center">
+  <em>Technologist | Tinkerer | AI Explorer | Human-Centered Developer</em>
+</p>
+
+---
+
+### 🌱 About Me
+
+- 🔧 Building LatticeOS – a Linux distro designed to revive legacy hardware.
+- 🧠 Passionate about AI ethics, open-source, and sustainable computing.
+- 📜 U.S. Navy Veteran (Hospital Corpsman) with leadership and tech operations experience.
+- 🎯 Currently applying to be a **Technical Sourcer at DuckDuckGo** – rooting for private, people-first search and software.
+
+---
+
+### 💻 Current Projects
+
+- **🌿 LatticeOS**: Custom Linux OS built for edge devices and legacy phones.
+- **📱 Project Lattice**: Repurposing old Galaxy phones into a distributed AI cluster.
+- **🧠 LegacyTwig**: Secure AI voice archive to preserve loved ones’ stories and personalities.
+- **🔌 BuzzDock**: Modular, hot-swappable power and node rail for embedded AI networks.
+
+---
+
+### 🛠️ Tech Stack
+
+Linux · Bash · Python · Git · HTML/CSS · Markdown · Ubuntu Server · AI Models · postmarketOS · Raspberry Pi · SSH · TWRP · Conky · Ethical Hacking
+
+---
+
 ### 📚 Iterations & Development
 Want to see how far LatticeOS has come? A full history of builds and features is coming soon in `docs/iterations.md`.
 
@@ -47,5 +78,18 @@ GitHub: [github.com/LatticeOSdev](https://github.com/LatticeOSdev)
 
 ---
 
-> *"You don't throw away something with potential. You give it a reason to shine again."*  
+### 🤝 Connect with Me
+
+- 🌐 [LatticeOS.dev](https://latticeos.dev)
+- 💌 [Email Me](mailto:sheltonstalford@pm.me)
+- 🧑‍💻 [Resume & Cover Letter Available on Request]
+
+---
+
+<sub>Crafted with ❤️ by Buzz + Nova (powered by OpenAI)</sub>
+
+
+---
+
+> *"Give new life to your favorite old devices and join the movement, with LatticeOS."*  
 > — Buzz & Nova
