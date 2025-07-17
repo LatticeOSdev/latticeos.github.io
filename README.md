@@ -1,8 +1,13 @@
-# 🌱 LatticeOS — Architecture for Connection
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LatticeOSdev/latticeos.github.io/main/homepage-bg.png" width="100%" alt="LatticeOS Pixel Background" />
+</p>
 
-**Revive. Repurpose. Reconnect.**
+<h1 align="center">🌱 LatticeOS — Architecture for Connection</h1>
+<h3 align="center">Revive. Repurpose. Reconnect.</h3>
 
-LatticeOS is a lightweight Linux-based operating system designed to breathe new life into legacy and upcycled hardware. Built with care, minimalism, and a DIY spirit, it's more than an OS — it's a movement.
+---
+
+**LatticeOS** is a lightweight Linux-based operating system designed to breathe new life into legacy and upcycled hardware. Built with care, minimalism, and a DIY spirit, it's more than an OS — it's a movement.
 
 We believe computing should be human-first, accessible, and sustainable. LatticeOS empowers individuals to reclaim their devices, reconnect with purpose, and run intelligent systems even on machines that were left behind.
 
@@ -35,8 +40,10 @@ LatticeOS exists to:
 
 ---
 
-<h1 align="center">Hi, I'm Buzz 🛠️</h1>
-<p align="center">
+<h2 align="center">Hi, I'm Buzz 🛠️</h2>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/LatticeOSdev/latticeos.github.io/main/linux-druid-avatar.png" width="120" alt="Buzz Avatar" />
+</p>
   <em>Technologist | Tinkerer | AI Explorer | Human-Centered Developer</em>
 </p>
 
@@ -87,7 +94,6 @@ GitHub: [github.com/LatticeOSdev](https://github.com/LatticeOSdev)
 ---
 
 <sub>Crafted with ❤️ by Buzz + Nova (powered by OpenAI)</sub>
-
 
 ---
 
