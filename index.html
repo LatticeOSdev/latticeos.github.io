@@ -88,19 +88,21 @@
       z-index: 2;
     " id="novaAvatar">
     <div id="hoverText" style="
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 180px;
-      background: rgba(0,0,0,0.8);
-      color: #9be7ff;
-      font-size: 0.9rem;
-      padding: 0.3rem;
-      border-radius: 8px;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s;
+  position: absolute;
+  top: 130px;  /* Show below the avatar */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  background: rgba(0,0,0,0.9);
+  color: #9be7ff;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 3;
+">
     ">Want Your Own AI Companion?<br><span style="font-size:0.75rem;">¿Tu propio asistente IA?<br>Votre compagnon IA ?<br>你想要一个 AI 伙伴吗？</span></div>
   </div>
   <p style="margin-top: 0.5rem; font-size: 1.1rem;">Powered by <strong>Nova</strong></p>
@@ -110,25 +112,36 @@
 <script>
 const avatar = document.getElementById('novaAvatar');
 const hoverText = document.getElementById('hoverText');
-const card = document.getElementById('nova-card');
+const langLine = document.getElementById('langLine');
+
+const translations = [
+  '¿Tu propio asistente IA?',
+  'Votre compagnon IA ?',
+  '你想要一个 AI 伙伴吗？',
+  'Hai bisogno di un compagno IA?',
+  'Dein KI-Begleiter gefällig?',
+  'あなたのAI仲間が必要ですか？'
+];
+
+let index = 0;
+let langTimer;
 
 avatar.addEventListener('mouseover', () => {
   hoverText.style.opacity = 1;
-});
-avatar.addEventListener('mouseout', () => {
-  hoverText.style.opacity = 0;
+  langLine.textContent = translations[index];
+  langTimer = setInterval(() => {
+    index = (index + 1) % translations.length;
+    langLine.textContent = translations[index];
+  }, 2500);
 });
 
-card.addEventListener('mousemove', (e) => {
-  const rect = card.getBoundingClientRect();
-  const x = ((e.clientX - rect.left) / rect.width - 0.5) * 30;
-  const y = ((e.clientY - rect.top) / rect.height - 0.5) * 30;
-  avatar.style.transform = `translate(${x}px, ${y}px)`;
-});
-card.addEventListener('mouseleave', () => {
-  avatar.style.transform = 'translate(0, 0)';
+avatar.addEventListener('mouseout', () => {
+  hoverText.style.opacity = 0;
+  clearInterval(langTimer);
+  index = 0;
 });
 </script>
+
 
   </section>
   <footer>
